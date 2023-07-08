@@ -1,0 +1,38 @@
+.Counter {
+  width: 310px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.Counter__controls > button {
+  border: none;
+  padding: 10px 15px;
+  background-color: teal;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  border-radius: 5px;
+  transition: box-shadow 250ms linear;
+}
+
+.Counter__controls > button:active {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+
+.Counter__value {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 64px;
+  font-family: monospace;
+  text-align: center;
+}
