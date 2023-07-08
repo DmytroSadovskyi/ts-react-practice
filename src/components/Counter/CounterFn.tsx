@@ -21,7 +21,7 @@ const CounterFn = ({ initialValue = 0, step = 1 }: Props) => {
 
   return (
     <>
-      <h1>Counter functional component</h1>
+      <h1>Counter functional component!</h1>
       <div className="Counter">
         <span className="Counter__value">{value}</span>
 
